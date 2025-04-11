@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Fab > renders the App component 1`] = `
+<body>
+  <div>
+    <label
+      class="fixed z-20 size-11 rounded-full bg-primary right-0 bottom-0 flex justify-center items-center"
+      for="my-drawer"
+    >
+      <svg
+        class="text-primary-content"
+        height="20"
+        viewBox="0 0 24 24"
+        width="20"
+      >
+        <path
+          d="M5,12A7,7,0,0,1,16.89,7H14a1,1,0,0,0,0,2h5.08A1,1,0,0,0,20,8V3a1,1,0,0,0-2,0V5.32A9,9,0,0,0,3,12a1,1,0,0,0,2,0Z"
+          fill="currentColor"
+        />
+        <path
+          d="M20,11a1,1,0,0,0-1,1A7,7,0,0,1,7.11,17H10a1,1,0,0,0,0-2H4.92A1,1,0,0,0,4,16v5a1,1,0,0,0,2,0V18.68A9,9,0,0,0,21,12,1,1,0,0,0,20,11Z"
+          fill="currentColor"
+        />
+      </svg>
+    </label>
+  </div>
+</body>
+`;
