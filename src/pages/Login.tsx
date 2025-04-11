@@ -34,8 +34,11 @@ export const Login: FC = () => {
   const [email, password] = FormDataKeys;
   return (
     <div className="w-screen h-screen flex items-center justify-center hero">
-      <section className="card w-80 h-72 bg-base-100 shadow-sm hero-content">
+      <section className="card w-80 h-92 bg-base-100 shadow-sm hero-content">
         <h1 className="text-xl font-bold">Login</h1>
+        <span className="text-xl font-bold text-error">
+          Feature in development Enter any pasword and valid email
+        </span>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col">
           <Fieldset
             label="Email"

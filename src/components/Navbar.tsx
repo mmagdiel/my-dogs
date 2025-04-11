@@ -13,7 +13,7 @@ export const Navbar: FC<NavbarProps> = ({ list, handleLogOut }) => (
     <div className="drawer-content">
       <label className="btn btn-primary drawer-button" onClick={handleLogOut}>
         <LogOut size={20} className="text-primary-content" />
-        breed
+        Log out
       </label>
     </div>
   </div>

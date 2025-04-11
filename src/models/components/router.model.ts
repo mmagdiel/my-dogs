@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-const Paths = ["/login", "/home"] as const;
+const Paths = ["/login", "/home", "/", "*"] as const;
 type Path = (typeof Paths)[number];
 
 interface Router {
